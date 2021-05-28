@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>View Cheatsheet</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="logo.jpg" alt="logo"></span>
+    
+        <div class="content center">
+            Cheatsheet | Code Snippets
+        </div>
+        <span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+    </nav>
+    <div class="container-fluid">
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+    <div class="sidenav ">
+        <a href="#html">HTML Cheatsheet</a>
+        <a href="#javascript">JavaScript Cheatsheet</a>
+        <a href="#vue" class="active">Vue Cheatsheet</a>
+        <a href="#css">Css Cheatsheet</a>
+        <a href="#html">Python Cheatsheet</a>
+        <a href="#javascript">React Cheatsheet</a>
+        <a href="#vue">Angular Cheatsheet</a>
+        <a href="#css">Css Cheatsheet</a>
+        <a href="#html">HTML Cheatsheet</a>
+        <a href="#vue">Vue Cheatsheet</a>
+        <a href="#css">Css Cheatsheet</a>
+        <a href="#html">HTML Cheatsheet</a>
+        <a href="#css">Css Cheatsheet</a>
+        <a href="#css">Css Cheatsheet</a>
+        <a href="#css">Css Cheatsheet</a>
+      </div>
+    <div class="main-body content">
+     
+        <ol style="padding-left: 40px;">
+            <li>HTML Boilerplate:<p>HTML5 Boilerplate is an HTML, CSS and JavaScript template for creating HTML5 websites with cross-browser compatibility.</p>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </li>
+            <li>Ordered list tag
+                <pre class="language-js"><code> &lt;ol&gt;
+    &lt;li&gt;
+        
+    &lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </li>
+            <li>Axios Package installer in Vue: <p>First you need to install it in your package through command line and thenafter you have to include it in components where you want to fire an API</p>
+                <pre class="language-js"><code>npm install --save axios vue-axios
+import Vue from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+Vue.use(VueAxios, axios)</code></pre>
+            </li>
+            <li>JSON SERVER in VueJS: <p>First, Install Json server and then Start JSON Server and use your database name as it uses db.json</p>
+                <pre class="language-js"><code>npm install -g json-server 
+json-server --watch db.json</code></pre>
+            </li>
+
+            <li>Vue Router: <P>When used with a module system, you must explicitly install the router via Vue.use():</P>
+                <pre class="language-js"><code>npm install vue-router
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+                </code></pre>
+            </li>
+
+            <li>Vue Data Properties and Methods
+                <pre class="language-js"><code>data() {
+return { Any instance you want to return}
+},
+methods: {
+increment() {
+    // `this` will refer to the component instance
+}
+}</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+            <li>NEW Properties
+                <pre class="language-js"><code>var i =10</code></pre>
+            </li>
+        </ol>
+        </div>
+    </div>
+    <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</body>
+
+</html>
